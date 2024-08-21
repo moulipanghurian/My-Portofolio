@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/img/programming.png" type="image/x-icon" />
+    <!--=============== BOXICONS ===============-->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="styles.css" />
+    <title>My Portfolio</title>
+  </head>
+  <body>
+    <!-- HEADER PORTFOLIO -->
+    <header class="header" id="header">
+      <nav class="nav container">
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">
+                <i class="bx bx-home-alt nav__icon"></i>
+                <span class="nav__name">Home</span>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#about" class="nav__link">
+                <i class="bx bx-user nav__icon"></i>
+                <span class="nav__name">About</span>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">
+                <i class="bx bx-book-alt nav__icon"></i>
+                <span class="nav__name">Skills</span>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#portfolio" class="nav__link">
+                <i class="bx bx-briefcase-alt nav__icon"></i>
+                <span class="nav__name">Portfolio</span>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">
+                <i class="bx bx-message-square-detail nav__icon"></i>
+                <span class="nav__name">Contact</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- <img src="assets/img/icon.png" alt="" class="nav__img" /> -->
+        <!-- theme change light and dark -->
+        <i class="bx bx-moon change-theme" id="theme-button"></i>
+      </nav>
+    </header>
+    <!--=============== MAIN ===============-->
+    <main class="main">
+      <!--=============== HOME ===============-->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__data">
+            <span class="home__greeting">Hello, I'm</span>
+            <h1 class="home__name">Mouli Panghurian</h1>
+            <h3 class="home__education">Design Enthusiast | Graphic Design | UI/UX</h3>
+
+            <div class="home__buttons">
+              <a href="CV_Mouli Panghurian_Design.pdf" target="_blank" class="button button--ghost">DOWNLOAD CV</a>
+              <a href="#about" class="button">About me</a>
+            </div>
+          </div>
+
+          <div class="home__handle">
+            <div class="home__img-wrapper">
+                <img src="aku.png" alt="" class="home__img" />
+            </div>
+        </div>        
+
+          <div class="home__social">
+            <a href="https://www.linkedin.com/in/mouli-panghurian-3752a3303/" target="_blank" class="home__social-link"><i class="bx bxl-linkedin"></i></a>
+            <a href="https://github.com/moulipanghurian?tab=repositories" target="_blank" class="home__social-link"><i class="bx bxl-github"></i></a>
+            <a href="https://instagram.com/mouuullii?igshid=NGExMml2YTkyZg==" target="_blank" class="home__social-link"><i class="bx bxl-instagram"></i></a>
+          </div>
+      </section>
+
+      <!--=============== ABOUT ===============-->
+      <section class="about section" id="about">
+        <span class="section__subtitle">My Intro</span>
+        <h2 class="section__title">About Me</h2>
+
+        <div class="about__container container grid">
+          <img src="bebas.png" alt="" class="about__img" />
+          <div class="about__data">
+            <!-- <div class="about__info">
+              <div class="about__box">
+                <i class="bx bx-award"></i>
+                <h3 class="about__title">Graduated</h3>
+                <span class="about__subtitle">Less 1 year experience</span>
+              </div>
+              <div class="about__box">
+                <i class="bx bx-briefcase"></i>
+                <h3 class="about__title">Projects</h3>
+                <span class="about__subtitle">6 Project</span>
+              </div>
+              <div class="about__box">
+                <i class="bx bx-support"></i>
+                <h3 class="about__title">Open to Work</h3>
+                <span class="about__subtitle">Online 24/7</span>
+              </div>
+            </div> -->
+            <p class="about__description">
+              I'm Mouli Panghurian, a final year student from Information System study programme of Trunojoyo University Madura. With a deep interest in design, I focus on graphic design and UI/UX. Currently, I offer freelance design services to help clients create innovative and functional design solutions.
+            </p>
+            <a href="#contact" class="button">Contact Me</a>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== SKILLS ===============-->
+      <!-- <section class="container section section__height" id="skills">
+        <h2 class="section__title">Skills</h2>
+      </section> -->
+      <section class="skills section" id="skills">
+        <span class="section__subtitle">My abilities</span>
+        <h2 class="section__title">SKILLS</h2>
+        <div class="skills__container container grid">
+          <div class="skills__content">
+            <h3 class="skills__title">Expertise</h3>
+
+            <div class="skills__box">
+              <div class="skills__group">
+                <div class="skills__data">
+                  <i class="bx bx-badge-check"></i>
+
+                  <div>
+                    <h3 class="skills__name">Visual composition</h3>
+                    <!-- <span class="skills__level">Basic</span> -->
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <i class="bx bx-badge-check"></i>
+                  <div>
+                    <h3 class="skills__name">Typography</h3>
+                    <!-- <span class="skills__level">Basic</span> -->
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <i class="bx bx-badge-check"></i>
+
+                  <div>
+                    <h3 class="skills__name">Use of color</h3>
+                    <!-- <span class="skills__level">Basic</span> -->
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <i class="bx bx-badge-check"></i>
+
+                  <div>
+                    <h3 class="skills__name">User research</h3>
+                    <!-- <span class="skills__level">Basic</span> -->
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <i class="bx bx-badge-check"></i>
+
+                  <div>
+                    <h3 class="skills__name">making wireframes</h3>
+                    <!-- <span class="skills__level">Basic</span> -->
+                  </div>
+                </div>
+              </div>
+              <div class="skills__group">
+              </div>
+            </div>
+          </div>
+          <div class="skills__content">
+            <h3 class="skills__title">Tools</h3>
+
+            <div class="skills__box">
+              <div class="skills__group">
+                <div class="skills__data">
+                  <i class="bx bx-badge-check"></i>
+                  <div>
+                    <h3 class="skills__name">Adobe Photoshop</h3>
+                    <!-- <span class="skills__level">Intermediate</span> -->
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <i class="bx bx-badge-check"></i>
+
+                  <div>
+                    <h3 class="skills__name">Figma</h3>
+                    <!-- <span class="skills__level">Basic</span> -->
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <i class="bx bx-badge-check"></i>
+                  <div>
+                    <h3 class="skills__name">Canva</h3>
+                    <!-- <span class="skills__level">Basic</span> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== PORTFOLIO ===============-->
+      <section class="work section" id="portfolio">
+        <span class="section__subtitle">My Portfolio</span>
+        <h3 class="section__title">Recent Works</h3>
+        <div class="work__filters">
+          <span class="work__items active-work" data-filter="all">All</span>
+          <span class="work__items" data-filter=".ui">UI/UX</span>
+          <span class="work__items" data-filter=".des">Graphic Design</span>
+        </div>
+        <div class="work__container container grid">
+          <div class="work__card mix ui">
+            <img src="ctt.png" alt="" class="work__img" />
+            <h3 class="work__title">Pregnant mother record application</h3>
+            <a href="https://github.com/moulipanghurian/UI-UX" target="_blank" class="work__button"> Demo<i class="bx bx-right-arrow-alt work__icon"></i> </a>
+          </div>
+          <div class="work__card mix ui">
+            <img src="maps.png" alt="" class="work__img" />
+            <h3 class="work__title">Nearest breastfeeding room search application</h3>
+            <a href="https://github.com/moulipanghurian/Design-UI-UX" target="_blank" class="work__button"> Demo<i class="bx bx-right-arrow-alt work__icon"></i> </a>
+          </div>
+          <div class="work__card mix ui">
+            <img src="web.png" alt="" class="work__img" />
+            <h3 class="work__title">Redesign of the East Java provincial health service website</h3>
+            <a href="https://github.com/moulipanghurian/UI-Website" class="work__button"> Demo<i class="bx bx-right-arrow-alt work__icon"></i> </a>
+          </div>
+          <div class="work__card mix ui">
+            <img src="fit.png" alt="" class="work__img" />
+            <h3 class="work__title">Fit Journey App</h3>
+            <a href="https://github.com/moulipanghurian/UI-fitness" target="_blank" class="work__button"> Demo<i class="bx bx-right-arrow-alt work__icon"></i> </a>
+          </div>
+          <div class="work__card mix ui">
+            <img src="sipraja.png" alt="" class="work__img" />
+            <h3 class="work__title">government application redesign</h3>
+            <a href="https://github.com/moulipanghurian/UI-Egov"></i> </a>
+          </div>
+          <div class="work__card mix des">
+            <img src="yu.png" alt="" class="work__img" />
+            <h3 class="work__title">Graphic design</h3>
+            <a href="https://github.com/moulipanghurian/Design" target="_blank" class="work__button"> Demo<i class="bx bx-right-arrow-alt work__icon"></i> </a>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== CONTACT ===============-->
+      <section class="contact section" id="contact">
+        <span class="section__subtitle">Get in touch</span>
+        <h3 class="section__title">Contact Me</h3>
+
+        <div class="contact__container container grid">
+          <!-- <div class="contact__content">
+            <h3 class="contact__title">Talk to me</h3>
+            <div class="contact__info">
+              <div class="contact__card">
+                <i class="bx bx-mail-send contact__card-icon"></i>
+                <h3 class="contact__card-title">Email</h3>
+                <span class="contact__card-data">alfarabyindra@gmail.com</span>
+                <a href="mailto:examplemail@correo.com" target="_blank" class="contact__button">
+                  Write me
+                  <i class="bx bx-right-arrow-alt contact__button-icon"></i>
+                </a>
+              </div>
+              <div class="contact__card">
+                <i class="bx bxl-whatsapp contact__card-icon"></i>
+                <h3 class="contact__card-title">Whatsapp</h3>
+                <span class="contact__card-data">085363939486</span>
+                <a href="https://wa.me/6285363939486" target="_blank" class="contact__button">
+                  Write me
+                  <i class="bx bx-right-arrow-alt contact__button-icon"></i>
+                </a>
+              </div>
+              <div class="contact__card">
+                <i class="bx bxl-instagram contact__card-icon"></i>
+                <h3 class="contact__card-title">Instagram</h3>
+                <span class="contact__card-data">alfarabyindra</span>
+                <a href="https://instagram.com/alfarabyindra?igshid=NGExMml2YTkyZg==" target="_blank" class="contact__button">
+                  Write me
+                  <i class="bx bx-right-arrow-alt contact__button-icon"></i>
+                </a>
+              </div>
+            </div>
+          </div> -->
+          <div class="contact__content">
+            <h3 class="contact__title">Need a design?</h3>
+            <form action="" class="contact__form" id="contact-form">
+              <div class="contact__form-div">
+                <label for="" class="contact__form-tag">Name</label>
+                <input type="text" name="user_name" placeholder="Insert Your Name!" class="contact__form-input" id="contact-name" />
+              </div>
+              <div class="contact__form-div">
+                <label for="" class="contact__form-tag">Email</label>
+                <input type="text" name="user_email" placeholder="Insert Your Email!" class="contact__form-input" id="contact-email" />
+              </div>
+              <div class="contact__form-div contact__form-area">
+                <label for="" class="contact__form-tag">Project</label>
+                <textarea cols="30" rows="10" name="user_project" placeholder="Insert Your Project!" class="contact__form-input" id="contact-project"></textarea>
+              </div>
+              <p class="contact__message" id="contact-message"></p>
+              <button class="button">Send</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!--=============== FOOTER ===============-->
+    <footer class="footer">
+      <div class="footer__container container">
+        <h1 class="footer__title">Let's Connect On Me!</h1>
+
+        <ul class="footer__social">
+          <a href="https://www.linkedin.com/in/mouli-panghurian-3752a3303/" target="_blank" class="footer__social-link"><i class="bx bxl-linkedin"></i></a>
+          <a href="https://instagram.com/moulipanghurian?igshid=NGExMml2YTkyZg==" target="_blank" class="footer__social-link"><i class="bx bxl-instagram"></i></a>
+          <a href="https://github.com/moulipanghurian" target="_blank" class="footer__social-link"><i class="bx bxl-github"></i></a>
+        </ul>
+        <span class="footer__copy"> &#169; 2024. Mouli Panghurian </span>
+      </div>
+    </footer>
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="scrollreveal.min.js"></script>
+    <!--=============== MIXITUP FILTER ===============-->
+    <script src="mixitup.min.js"></script>
+    <!--=============== MAIN JS ===============-->
+    <script src="main.js"></script>
+  </body>
+</html>
