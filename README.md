@@ -1,2 +1,2 @@
 **Web Portofolio**
-Result : moulipanghurian.github.io/My-Portofolio/
+Result : https://moulipanghurian.github.io/My-Portofolio/
